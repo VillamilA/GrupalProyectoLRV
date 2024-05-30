@@ -24,7 +24,7 @@ public class Vehiculo {
 
 // Clase derivada Automovil
 class Automovil extends Vehiculo {
-    private int numeroDePuertas;
+     int numeroDePuertas;
 
     public Automovil(String marca, String modelo, int velocidadMaxima, int numeroDePuertas) {
         super(marca, modelo, velocidadMaxima);
@@ -43,7 +43,7 @@ class Automovil extends Vehiculo {
 
 // Clase derivada Motocicleta
 class Motocicleta extends Vehiculo {
-    private String tipoDeManillar;
+     String tipoDeManillar;
 
     public Motocicleta(String marca, String modelo, int velocidadMaxima, String tipoDeManillar) {
         super(marca, modelo, velocidadMaxima);
